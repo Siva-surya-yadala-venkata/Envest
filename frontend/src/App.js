@@ -54,7 +54,7 @@ const sections = [
   { label: 'Analysis', icon: <InsightsIcon /> },
 ];
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = process.env.REACT_APP_BACKEND_URL + '/api';
 const FMP_API_KEY = process.env.REACT_APP_FMP_API_KEY;
 
 function App() {

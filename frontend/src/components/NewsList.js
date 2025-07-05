@@ -20,7 +20,8 @@ const NewsList = ({ portfolioSymbols, onFilteredNewsChange }) => {
 
   const fetchNews = async () => {
     setLoading(true);
-    let url = '/api/news';
+    const API_BASE = process.env.REACT_APP_BACKEND_URL;
+    let url = `${API_BASE}/api/news`;
     const params = [];
     if (category) params.push(`category=${encodeURIComponent(category)}`);
     if (params.length) url += '?' + params.join('&');
@@ -71,8 +72,8 @@ const NewsList = ({ portfolioSymbols, onFilteredNewsChange }) => {
     <Box sx={{ mt: 4 }}>
       <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
         <Typography variant="h6" fontWeight={700}>
-          News
-        </Typography>
+        News
+      </Typography>
         {portfolioSymbols && portfolioSymbols.length > 0 && (
           <Button
             variant={showRelevantOnly ? 'contained' : 'outlined'}

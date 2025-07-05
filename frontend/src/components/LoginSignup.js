@@ -3,7 +3,7 @@ import { Box, Card, CardContent, Typography, TextField, Button, Tabs, Tab, Avata
 import GoogleIcon from '@mui/icons-material/Google';
 import axios from 'axios';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000';
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 // Base path for all auth endpoints
 const API_BASE = `${BACKEND_URL}/api/auth`;
 
@@ -37,7 +37,7 @@ const LoginSignup = ({ onAuth }) => {
   };
 
   const handleGoogle = () => {
-    window.location.href = `${BACKEND_URL}/api/auth/google`;
+    window.location.href = `${API_BASE}/google`;
   };
 
   return (
