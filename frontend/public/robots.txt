@@ -1,0 +1,3 @@
+echo "# Envest" >> README.md# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
