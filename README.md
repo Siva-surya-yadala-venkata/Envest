@@ -33,11 +33,11 @@
 *Comprehensive news section with category filters (ALL, TOP STORIES, STOCKS, FUTURES, FOREX, CRYPTO) and detailed market analysis*
 
 ### 📊 AI Portfolio Impact Analysis
-![Portfolio Analysis](screenshots/portfolio-analysis.png)
+![Portfolio Analysis](screenshots/analysis.png)
 *AI-powered analysis dashboard with BTCUSDT candlestick charts and portfolio sentiment analysis for APPLE, AMAZON, BTC*
 
 ### 📰 Show Portfolio Relevant News
-![Relevant News](screenshots/relevantnews.png)
+![Relevant News](screenshots/relvantnews.png)
 *AI-powered analysis dashboard with BTCUSDT candlestick charts and portfolio sentiment analysis for APPLE, AMAZON, BTC*
 
 ## ✨ Key Features
