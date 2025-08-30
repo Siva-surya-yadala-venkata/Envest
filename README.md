@@ -131,7 +131,7 @@ Before running this project, ensure you have:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/envest.git
+git clone https://github.com/Siva-surya-yadala-venkata/Envest
 cd envest
 ```
 
@@ -280,7 +280,7 @@ This project is licensed under the **ISC License** - see the [LICENSE](LICENSE) 
 
 ## 👨‍💻 Author
 
-**Sivas** - [GitHub Profile](https://github.com/yourusername)
+**Siva Surya** - [GitHub Profile](https://github.com/Siva-surya-yadala-venkata)
 
 ## 🙏 Acknowledgments
 
@@ -295,8 +295,8 @@ This project is licensed under the **ISC License** - see the [LICENSE](LICENSE) 
 If you have any questions or need help:
 
 - **Create an Issue** on GitHub
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile]
+- **Email**: sivasuryayvs[at]gmail[dot]com
+- **LinkedIn**: [Venkata Siva Surya Yadala](https://www.linkedin.com/in/yadala-venkata-siva-surya-1a1a3b256/)
 
 ---
 
