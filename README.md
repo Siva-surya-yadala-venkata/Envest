@@ -13,17 +13,28 @@
 
 ## 📸 Screenshots
 
+### 🔐 Authentication Pages
+![Login Page](screenshots/login-page.png)
+*Clean and modern login interface with purple "E" logo, email/password fields, and Google OAuth integration*
+
+![Signup Page](screenshots/signup-page.png)
+*User registration form with name, email, password fields and "CONTINUE WITH GOOGLE" button*
+
 ### 🏠 Dashboard Overview
-![Dashboard](https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=Envest+Dashboard)
-
-### 📊 Stock Analysis
-![Stock Analysis](https://via.placeholder.com/800x400/2196F3/FFFFFF?text=Stock+Analysis+View)
-
-### 📰 News & Insights
-![News Feed](https://via.placeholder.com/800x400/FF9800/FFFFFF?text=News+and+Insights)
+![Dashboard](screenshots/dashboard.png)
+*Main dashboard showing stock search for AAP, real-time price data ($60.99, +0.78%), and interactive price charts*
 
 ### 💼 Portfolio Management
-![Portfolio](https://via.placeholder.com/800x400/9C27B0/FFFFFF?text=Portfolio+Management)
+![Portfolio](screenshots/portfolio.png)
+*Portfolio management interface displaying current holdings (APPLE, AMAZON, BTC) with add/remove functionality*
+
+### 📰 News & Insights
+![News Feed](screenshots/news-feed.png)
+*Comprehensive news section with category filters (ALL, TOP STORIES, STOCKS, FUTURES, FOREX, CRYPTO) and detailed market analysis*
+
+### 📊 AI Portfolio Impact Analysis
+![Portfolio Analysis](screenshots/portfolio-analysis.png)
+*AI-powered analysis dashboard with BTCUSDT candlestick charts and portfolio sentiment analysis for APPLE, AMAZON, BTC*
 
 ## ✨ Key Features
 
@@ -47,49 +58,69 @@
 - **Real-time Updates**: Live data streaming and notifications
 - **Secure Authentication**: JWT-based user authentication system
 
-## 🏗️ Architecture
+## 🏗️ Project Structure
 
 ```
 Envest/
 ├── frontend/                 # React.js Frontend Application
 │   ├── src/
 │   │   ├── components/      # Reusable UI Components
+│   │   │   ├── AnalysisGraph.js
+│   │   │   ├── AnalysisSummary.js
+│   │   │   ├── FilteredNews.js
+│   │   │   ├── HeroSection.js
+│   │   │   ├── HTNewsTable.js
+│   │   │   ├── LoginSignup.js
+│   │   │   ├── Navbar.js
+│   │   │   ├── NewsCard.js
+│   │   │   ├── NewsList.js
+│   │   │   ├── PortfolioInput.js
+│   │   │   ├── StockArticles.js
+│   │   │   ├── StockNews.js
+│   │   │   ├── StockProfile.js
+│   │   │   ├── StockRatings.js
+│   │   │   ├── SymbolSearch.js
+│   │   │   └── TradingViewNewsTable.js
 │   │   ├── utils/           # Utility Functions
-│   │   └── App.js          # Main Application Component
-│   └── public/              # Static Assets
+│   │   ├── App.js          # Main Application Component
+│   │   └── index.js        # Application Entry Point
+│   ├── public/              # Static Assets
+│   └── build/               # Production Build
 ├── backend/                  # Node.js Backend Server
 │   ├── routes/              # API Endpoints
 │   ├── models/              # Database Models
 │   ├── config/              # Configuration Files
-│   └── utils/               # Backend Utilities
+│   ├── utils/               # Backend Utilities
+│   └── server.js            # Main Server File
 └── README.md                # Project Documentation
 ```
 
 ## 🚀 Technology Stack
 
 ### **Frontend**
-- **React 19.1.0** - Modern UI framework
-- **Material-UI (MUI)** - Component library for beautiful design
-- **Recharts** - Data visualization and charts
-- **Axios** - HTTP client for API calls
-- **Emotion** - CSS-in-JS styling
+- **React 19.1.0** - Modern UI framework with hooks
+- **Material-UI (MUI)** - Professional component library
+- **Recharts** - Data visualization and interactive charts
+- **Axios** - HTTP client for API communication
+- **Emotion** - CSS-in-JS styling solution
 
 ### **Backend**
 - **Node.js** - Server runtime environment
-- **Express.js** - Web application framework
+- **Express.js** - Fast, unopinionated web framework
 - **MongoDB** - NoSQL database with Mongoose ODM
 - **JWT** - JSON Web Token authentication
 - **Puppeteer** - Web scraping and automation
-- **OpenAI API** - AI-powered insights
+- **OpenAI API** - AI-powered financial insights
 
-### **External APIs**
-- **Financial Modeling Prep (FMP)** - Financial data provider
-- **TradingView** - Market analysis and charts
-- **Kite Connect** - Trading platform integration
+### **External APIs & Services**
+- **Financial Modeling Prep (FMP)** - Comprehensive financial data
+- **TradingView** - Professional market analysis tools
+- **Kite Connect** - Zerodha trading platform integration
+- **Render** - Cloud hosting platform
 
 ## 📋 Prerequisites
 
-Before running this project, make sure you have:
+Before running this project, ensure you have:
 
 - **Node.js** (v16 or higher)
 - **npm** or **yarn** package manager
@@ -272,6 +303,3 @@ If you have any questions or need help:
 ⭐ **Star this repository if you find it helpful!**
 
 🔗 **Live Demo**: [https://siva-frontend.onrender.com/](https://siva-frontend.onrender.com/)
-
- 
- 
