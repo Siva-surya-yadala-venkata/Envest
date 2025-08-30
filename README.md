@@ -14,10 +14,10 @@
 ## 📸 Screenshots
 
 ### 🔐 Authentication Pages
-![Login Page](screenshots/login-page.png)
+![Login Page](screenshots/login.png)
 *Clean and modern login interface with purple "E" logo, email/password fields, and Google OAuth integration*
 
-![Signup Page](screenshots/signup-page.png)
+![Signup Page](screenshots/signup.png)
 *User registration form with name, email, password fields and "CONTINUE WITH GOOGLE" button*
 
 ### 🏠 Dashboard Overview
@@ -29,11 +29,15 @@
 *Portfolio management interface displaying current holdings (APPLE, AMAZON, BTC) with add/remove functionality*
 
 ### 📰 News & Insights
-![News Feed](screenshots/news-feed.png)
+![News Feed](screenshots/news.png)
 *Comprehensive news section with category filters (ALL, TOP STORIES, STOCKS, FUTURES, FOREX, CRYPTO) and detailed market analysis*
 
 ### 📊 AI Portfolio Impact Analysis
 ![Portfolio Analysis](screenshots/portfolio-analysis.png)
+*AI-powered analysis dashboard with BTCUSDT candlestick charts and portfolio sentiment analysis for APPLE, AMAZON, BTC*
+
+### 📰 Show Portfolio Relevant News
+![Relevant News](screenshots/relevantnews.png)
 *AI-powered analysis dashboard with BTCUSDT candlestick charts and portfolio sentiment analysis for APPLE, AMAZON, BTC*
 
 ## ✨ Key Features
